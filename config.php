@@ -1,11 +1,7 @@
 <?php
-// Cấu hình
-define('DB_HOST', 'localhost');
-define('DB_USER', 'root');
-define('DB_PASS', '');
-define('DB_NAME', 'webservice');
+date_default_timezone_set('Asia/Ho_Chi_Minh');
+error_reporting(1); // Thong bao loi
+@session_start();
 
-$connection = mysqli_connect(DB_HOST,DB_USER,DB_PASS,DB_NAME);
-if(!$connection){
-	die("Can't connect to ".DB_HOST);
-}
+define('CLIENT_URL', 	'http://localhost/client/');
+define('SERVER_URL', 	'http://localhost/webservice/');

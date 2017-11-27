@@ -1,0 +1,11 @@
+.main-header .navbar-custom-menu, .main-header .navbar-right {
+    float: right;
+    color: #fff;
+    line-height: 50px;
+    margin-right: 15px;
+}
+
+.box-header .box-title {
+	font-weight: 700;
+	text-transform: uppercase;
+}
