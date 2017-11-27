@@ -1,0 +1,5 @@
+RewriteEngine On
+
+# check file and folder
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
